@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "azalea_hedges",
+  "version": "${version}",
+  "name": "Azalea Hedges",
+  "description": "Adds One New Block Called the Azalea Hedge!",
+  "authors": [
+    "Evoslab"
+  ],
+  "contributors": [
+    "Evo_934",
+    "StevenPlayzz",
+    "JustinPlayzz"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/azalea-hedges-fabric",
+    "sources": "https://github.com/Evoslab/Azalea-Hedges-Fabric",
+    "issues": "https://github.com/Evoslab/Azalea-Hedges-Fabric/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/azalea_hedges/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "evoslab.azalea_hedges.AzaleaHedges"
+    ]
+  },
+  "depends": {
+    "java": ">=16",
+    "minecraft": "1.17.x",
+    "fabric": "*",
+    "fabricloader": ">=0.11.3",
+    "cloth-api": "*"
+  }
+}
